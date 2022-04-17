@@ -1,1 +1,35 @@
-// TODO
+.banner{
+  width: 100%;
+}
+
+.post{
+  margin-top: 3rem;
+
+  padding-bottom: 2rem;
+  section{
+    margin-top: 3rem;
+    text-align: justify;
+
+    p{
+      margin-top: 3rem;
+    }
+  }
+}
+
+.postInfo{
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+
+  div{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    span, time{
+      font-size: 1rem;
+    }
+  }
+
+
+}
